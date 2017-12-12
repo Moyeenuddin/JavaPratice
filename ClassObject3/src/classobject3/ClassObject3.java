@@ -5,17 +5,24 @@
  */
 package classobject3;
 
-/**
- *
- * @author Dragon
- */
 public class ClassObject3 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Car car1 = new Car();
+        car1.id = 1;
+        car1.model = "Gallado";
+        car1.brand = "Lamborghini";
+        car1.year = 2013;
+
+        Car car2 = new Car();
+        car2.id = 2;
+        car2.model = "Chiron";
+        car2.brand = "Bugati";
+        car2.year = 2017;
+
+        car1.report();
+        car2.report();
+
     }
-    
+
 }

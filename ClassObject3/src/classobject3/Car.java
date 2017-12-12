@@ -1,14 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package classobject3;
 
-/**
- *
- * @author Dragon
- */
 public class Car {
-    
+
+    int id;
+    String model;
+    String brand;
+    int year;
+
+    public void report() {
+
+        System.out.print(brand);
+        System.out.print(model);
+        System.out.println(year);
+    }
+
 }
